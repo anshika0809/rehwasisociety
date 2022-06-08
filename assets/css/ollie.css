@@ -60,6 +60,12 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
 
 body {
   margin: 0;
