@@ -4553,8 +4553,9 @@ input[type="button"].btn-block {
 }
 
 .nav-link {
-  display: block;
+  display: inline-block;
   padding: 0.5rem 1rem;
+  margin: 0 8px;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -4715,7 +4716,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-nav .dropdown-menu {
-  position: fixed;
+  position: static;
   float: none;
 }
 
@@ -4756,7 +4757,7 @@ input[type="button"].btn-block {
   display: inline-block;
   width: 1.5em;
   height: 1.5em;
-  vertical-align: middle;
+  vertical-align: left;
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%;
@@ -11217,7 +11218,7 @@ p {
   background: #ffc107 !important;
 }
 
-.navbar-brand .brand-img {
+.navbar-brand .header-img {
   width: 45px;
   margin: -0.3125rem 0;
 }
@@ -11274,12 +11275,12 @@ p {
 }
 
 .navbar-toggler-icon:before {
-  top: -10px;
+  top: -7px;
   width: 30px;
 }
 
 .navbar-toggler-icon:after {
-  top: 10px;
+  top: 7px;
   width: 30px;
 }
 
@@ -11326,7 +11327,7 @@ p {
 }
 
 .navbar-light .navbar-toggler-icon {
-  background: rgba(0, 0, 0, 0.7);
+  background: white;
 }
 
 .navbar-dark .navbar-toggler-icon {
