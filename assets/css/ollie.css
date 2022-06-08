@@ -111,7 +111,7 @@ body {
 
 .menu-bar ul li a {
   font-size: 15px;
-  color: yellow;
+  color: hsl(30, 100%, 50%);
   text-decoration: none;
   transition: all 0.3s;
 }
