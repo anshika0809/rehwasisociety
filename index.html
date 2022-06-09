@@ -17,61 +17,50 @@
     <!-- Bootstrap + Ollie main styles -->
 	<link rel="stylesheet" href="assets/css/ollie.css">
 </head>
-<body data-target=".navbar" data-offset="40" id="home">
-	<nav id="scrollspy" class="navbar navbar-light bg-light navbar-expand-lg fixed-top" data-spy="affix" data-offset-top="20">
-			<div class="container">
-				<div class="menu-bar">
-					<h1 class="logo">Reh<span>Wasi</span></h1>
-					<a class="navbar-brand" href="#"><img src="assets/imgs/header.svg" alt="" class="header-img"></a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav ml-auto">
-								<li class="nav-item">
-										<a class="nav-link" href="index.html">Home</a>
-								</li>
-								<li class="nav-item">
-									 <a class="nav-link" href="about.html">About us <i class="fas fa-caret-down"></i></a>
-									 <div class="dropdown-menu">
-								<ul>
-										<li><a href="blog.html">Blog</a></li>
-								</ul>
-						</div>
-							 </li>
-							 <li class="nav-item">
-									 <a class="nav-link" href="products.html">Products <i class="fas fa-caret-down"></i></a>
-									 <div class="dropdown-menu">
-								<ul>
-										<li><a href="security management.html">Security Management</a></li>
-										<li><a href="Community management.html">Community Management</a></li>
-										<li><a href="covid.html">Comprehensive Covid Management for Communities</a></li>
-								</ul>
-						</div>
-							 </li>
-								<li class="nav-item">
-										<a class="nav-link" href="features.html">Features <i class="fas fa-caret-down"></i></a>
-										<div class="dropdown-menu">
-								 <ul>
-									 <li><a href="accounts.html">Accounts and Payments</a></li>
-									 <li><a href="complaints.html">Maintainance and Complaints</a></li>
-									 <li><a href="booking.html">Amenities Booking</a></li>
-									 <li><a href="committee.html">Management Committee</a></li>
-									 <li><a href="security.html">Security</a></li>
-									 <li><a href="helpdesk.html">Helpdesk</a></li>
-								 </ul>
-						 </div>
-								</li>
-								<li class="nav-item">
-										<a class="nav-link" href="contact.html">Contact us</a>
-								</li>
-						</ul>
-					</div>
-			</div>
-		</div>
+<body>
+	<div id="wrap">
+	<nav>
+		<div class="logo">Reh<span>Wasi</span></div>
+		<button type="button" class="btn-hamburger" data-action="nav-toggle">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+		<ul class="nav-menu">
+			<li class="nav-item"><a href="index.html">Home</a></li>
+			<li class="nav-item dropdown">
+				<a href="about.html" data-action="dropdown-toggle">About</a>
+          <div class="dropdown-menu">
+					<a class="dropdown-item" href="blog.html">Blog</a>
+				</div>
+			</li>
+			<li class="nav-item dropdown">
+				<a href="products.html" data-action="dropdown-toggle">Products</a>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="security management.html">Security Management</a>
+					<a class="dropdown-item" href="Community management.html">Community Management</a>
+					<a class="dropdown-item" href="covid.html">Comprehensive Covid Management for Communities</a>
+				</div>
+			</li>
+			<li class="nav-item dropdown">
+	<a href="features.html" data-action="dropdown-toggle">Features</a>
+	<div class="dropdown-menu">
+		<a class="dropdown-item" href="accounts.html">Accounts and Payments</a>
+		<a class="dropdown-item" href="complaints.html">Maintainance and Complaints</a>
+		<a class="dropdown-item" href="booking.html">Amenities Booking</a>
+		<a class="dropdown-item" href="committee.html">Management Committee</a>
+		<a class="dropdown-item" href="security.html">Security</a>
+		<a class="dropdown-item" href="helpdesk.html">Helpdesk</a>
+	</div>
+</li>
+<li class="nav-item"><a href="contact.html">Contact</a></li>
+		</ul>
 	</nav>
+</div>
 
-		<header id="home" class="header">
+<header id="home" class="header">
 		<div class="overlay"></div>
 		<div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
 				<div class="container">
